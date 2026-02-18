@@ -50,19 +50,31 @@ Baseline Training:
 - Validation Samples: 317
 
 Improvement Experiment:
-- Epochs: 15 
+- Epochs: 15
+- Training Samples: 2857
+- Validation Samples: 317
+
+Agressive Experiment:
+- Epochs: 25
+- Training Samples: 2857
+- Validation Samples: 317
+
+Extereme Experiment:
+- Epochs: 35
+- Training Samples: 2857
+- Validation Samples: 317
 
 Training and validation losses were monitored to ensure stable convergence.
 
 
 ## Performance
 
-Final IoU Score: 
+Mean IoU Score(35 Epoch): 0.2373
+Final IoU Score(15 Epoch): 0.326
 
 The model demonstrated consistent learning behavior with decreasing training loss across epochs.  
 Evaluation was performed strictly on unseen test data.
 
----
 
 ## Setup Instructions
 
@@ -85,7 +97,6 @@ Evaluation was performed strictly on unseen test data.
 
    python test_segmentation.py  
 
----
 
 ## Notes
 
@@ -93,7 +104,6 @@ Evaluation was performed strictly on unseen test data.
 - No test data was used during training.
 - Experiments were conducted to improve convergence and performance.
 
----
 
 ## Future Improvements
 
