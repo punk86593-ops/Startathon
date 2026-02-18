@@ -2,7 +2,7 @@
 
 ## Team Information
 Team Name: CHAI WITH COFFEE  
-Team Members: 4  
+Team Members: Abhi Srivastava(leader), Nawansh Dwivedi, Parth Kaushik, Deepanshu Suthar  
 
 
 ## Project Overview
